@@ -1,0 +1,99 @@
+*{
+    font-family: "Gabriela", Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url("../images/banner_bg.png");
+    background-position: right;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+header img{
+    margin-top: 50px !important;
+}
+#header-text {
+    margin-top: 100px;
+}
+nav li>a{
+    margin-top: 30px;
+}
+header li>a:hover{
+    color: #2196F3 !important;
+}
+
+.justify{
+    text-align: justify;
+}
+.menu{
+    margin-top: 40px;
+}
+#img-sm{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+.service{
+    margin-top: 40px;
+}
+.hoverable:hover{
+    background-color: #2196F3;
+    color: white;
+}
+#analysis{
+    margin-top: 80px;
+}
+section{
+    margin-top: 150px;
+    margin-left: 85px;
+}
+@media screen and (max-width: 560px){
+    #img-sm{
+        margin: auto;
+        display: block;
+        height: 200px;
+    }
+    header-text-sm{
+        margin-top: 5px;
+    }
+    .menu{
+        margin-top: 40px;
+    }
+    .brand-logo{
+        margin-right: -30px;
+    }
+}
+.contain{
+    margin-right: 40px !important;
+}
+.para{
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.parallax{
+    width: 100%;
+}
+.timepicker-digital-display , .datepicker-date-display{
+    background-color: #2196F3;
+}
+
+.timepicker-close, .datepicker-cancel, .datepicker-done{
+    color: #2196F3;
+}
+.timepicker-canvas-bearing, .timepicker-canvas-bg{fill:#2196F3;}
+
+.timepicker-canvas line{
+    stroke: #2196F3;
+}
+.timepicker-tick{
+    color: white;
+}
+.timepicker-plate{
+    background-color: rgb(122, 118, 118);
+}
+
+#card{
+    height: 550px !important;
+}
+.doctors{
+    margin-top: 100px;
+}
